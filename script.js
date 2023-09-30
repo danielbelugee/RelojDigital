@@ -11,4 +11,4 @@ let time = hh + ":" + mm + ":" + ":" + ss ;
 let watch = document.querySelector('#watch');
 watch.innerHTML = time;
 
-sentInterval(currentTime, 1000);
+setInterval(currentTime, 1000);
